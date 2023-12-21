@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/menu.css">
+    <title>Social Menu</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+        <div class="glitch" data-text="Don't Bite, Just Touch Slowly!">Don't Bite, Just Touch Slowly!</div> 
+    <nav class="l-nav-wrapper">
+        <h2 class="b-nav-heading">Burger menu &#9776</h2>
+        <ul class="b-nav">
+            <li class="b-nav__item">
+                <a class="b-nav__link" target="_blank" href="https://www.facebook.com/gaming/aero.gaming.ict">Facebook</a>
+            </li>
+            <li class="b-nav__item">
+                <a class="b-nav__link" target="_blank" href="https://www.tiktok.com/@aeroo.vlog">Tiktok</a>
+            </li>
+            <li class="b-nav__item">
+                <a class="b-nav__link" target="_blank" href="mailto:bone.m.satt@gmail.com">Mail</a>
+            </li>
+            <li class="b-nav__item">
+                <a class="b-nav__link" href="index.html">Go to Home>></a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        $(document).ready(function(){
+            $('.b-nav-heading').click(function(){
+                $('.b-nav').slideToggle();
+            });
+        });
+    </script>
+</body>
+</html>
